@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common section */
+.btn-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* Header Section */
+.work-section{
+    background-image: url('../images/banner/banner1.png');
+}
+.work-section-right{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.work-header{   
+    width: 525px;
+    text-align: right;
+    padding: 160px 150px;
+}
+.work-header h1{
+    color:  #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+.work-header p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
